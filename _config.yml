@@ -15,6 +15,18 @@
 remote_theme             : "thelehhman/plainwhite-jekyll"
 minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Plain White Settings
+plainwhite:
+  name: "Jong-Hyuk"
+  tagline: "CS Researcher. Developer"
+  date_format: "%b %-d, %Y"
+  social_links:
+    github: imjonghyuk
+  sitemap: true
+  search: true
+
+
+
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Encrypt(myNote);"

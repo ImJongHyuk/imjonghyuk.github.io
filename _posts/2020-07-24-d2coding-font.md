@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[개발환경개선] D2 Coding Font"
+title: "D2Coding Font"
 date: 2020-07-24 19:00:00 -0400
 categories: dev ubuntu coding environment font
 ---

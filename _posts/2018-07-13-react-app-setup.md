@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "React-app setup with WebStorm."
 date: 2018-07-13 14:00:00 -0400
-categories: react
+categories: react.js
 ---
 
 # React 설정 (on Windows)

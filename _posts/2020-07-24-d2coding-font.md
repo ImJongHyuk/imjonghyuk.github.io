@@ -27,7 +27,7 @@ D2 Coding 글꼴은 코딩시 유사한 형태의 영문/숫자 뿐만 아니라
   ```
 2. `gnome-font-viewer`에서 해당 글꼴을 설치한다.
 
-설치된 기본 글꼴명은 `D2Coding Regular`이다.
+설치된 기본 글꼴명은 `D2Coding`이다. (앱이 이를 잘 못찾는다면 `DeCoding Regular`로 찾을 수 있다.)
 
 
 [\[D2-FONT\]]: https://github.com/naver/d2codingfont

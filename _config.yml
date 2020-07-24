@@ -13,21 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme             : "mmistakes/minimal-mistakes"
 remote_theme             : "thelehhman/plainwhite-jekyll"
-minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Plain White Settings
-plainwhite:
-  name: "Jong-Hyuk"
-  tagline: "CS Researcher. Developer"
-  date_format: "%b %-d, %Y"
-  portfolio_image: "https://imjonghyuk.github.io/assets/images/by-cir.png"
-  social_links:
-    github: imjonghyuk
-  sitemap: true
-  search: true
-  dark_mode: true
-
-
+# minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -284,3 +270,15 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Plain White Settings
+plainwhite:
+  name: "Jong-Hyuk"
+  tagline: "CS Researcher. Developer"
+  date_format: "%b %-d, %Y"
+  portfolio_image: "assets/images/by-cir.png"
+  social_links:
+    github: imjonghyuk
+  sitemap: true
+  search: true
+  dark_mode: true

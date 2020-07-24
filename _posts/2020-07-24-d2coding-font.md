@@ -5,7 +5,7 @@ date: 2020-07-24 19:00:00 -0400
 categories: dev ubuntu coding environment font
 ---
 
-# (개발 환경) D2Coding Font (\#코딩 폰트)
+<!-- # (개발 환경) D2Coding Font (\#코딩 폰트) -->
 
 `EUC-KR`로 인코딩된 소스로 구성된 프로젝트를 수행해야할 일이 생겨, 기존에 쓰던 `utf8` 대상 폰트를 사용할 수 없었다.
 코드 및 터미널 텍스트 가독성 향상을 위해 새로운 폰트를 물색하는 와중에, 나눔바른고딕 베이스의 코딩용 폰트인 D2 Coding [\[D2-FONT\]]을 발견했다.

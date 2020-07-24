@@ -20,7 +20,7 @@ plainwhite:
   name: "Jong-Hyuk"
   tagline: "CS Researcher. Developer"
   date_format: "%b %-d, %Y"
-  portfolio_image: "assets/portfolio.png"
+  portfolio_image: "/assets/portfolio.png"
   social_links:
     github: imjonghyuk
   sitemap: true

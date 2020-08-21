@@ -27,7 +27,7 @@ categories: toy-project environment
 ### 개발 환경
 이 글에서 다루는 Node.js 설치 환경은 다음과 같습니다.
 + OS: Ubuntu 18.04 LTS
-+ CPU: Intel Core i7 9th CPU (amd64)
++ CPU: Intel Core i7 9th-Gen CPU (amd64)
 
 
 ### Node.js 버전 확인

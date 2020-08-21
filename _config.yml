@@ -102,9 +102,9 @@ analytics:
 # Site Author
 author:
   name             : "Jong-Hyuk Im"
-  avatar           : #"/aassets/images/by-cut.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Everywhere on earth"
+  avatar           : "assets/images/by-cir.png" #"/aassets/images/by-cut.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "PhD in Computer Security, and Developer."
+  location         : "South Korea"
   email            : "imjhyuk@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -282,3 +282,10 @@ plainwhite:
   sitemap: true
   search: true
   dark_mode: true
+  
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/imjonghyuk"

@@ -2,6 +2,7 @@
 layout: post
 title: "[ToyProject/환경구축] 0. Ubuntu에 NodeJS 설치하기."
 date: 2020-08-21 20:00:00 -0400
+tags: [node.js, vue, express, ubuntu, environment]
 categories: node.js vue express ubuntu environment
 ---
 

@@ -55,6 +55,8 @@ sudo apt-get install curl
 ```bash
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```
+상기 url에서 `setup_14.x` 부분을 자신이 원하는 버전으로 변경한다면 (예, `v12`: `setup_12.x`) 자신이 원하는 nodejs 버전을 설치할 수 있습니다.
+
 
 #### 시스템에 nodejs 설치
 ```bash
@@ -63,7 +65,7 @@ sudo apt-get install -y nodejs
 
 #### nodejs / npm 버전 확인
 ```bash
-nodejs -v;
+node -v;
 npm -v;
 ```
 

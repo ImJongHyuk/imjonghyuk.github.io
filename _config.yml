@@ -1,1 +1,14 @@
-remote_theme: "mmistakes/minimal-mistakes@4.20.1"
+# Remote and huge settings.
+remote_theme            : "mmistakes/minimal-mistakes@4.20.1"
+minimal_mistakes_skin   : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+# Site settings.
+locale                  : "ko-KR"
+title                   : "DevBlog = Enc(Jong-Hyuk);"
+title_separator         : "-"
+name                    : "DevBlog = Enc(Jong-Hyuk);"
+description             : "Development, Researches, and ..."
+url                     : "https://imjonghyuk.github.io"
+baseurl                 : ""
+repository              : "imjonghyu/imjonghyuk.github.io"
+search                  : true

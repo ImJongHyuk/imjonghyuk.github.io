@@ -44,14 +44,28 @@
   ],
   "education": [
     {
-      "institution": "Inha University",
-      "location": "Incheon, Republic of Korea",
-      "url": "https://www.inha.ac.kr/",
-      "area": "Computer Security",
-      "studyType": "PhD",
+      "institution": "Inha University, Incheon, Korea",
+      "area": "Department of Electrical and Computer Engineering",
+      "studyType": "PhD in Computer Security",
       "startDate": "2015-09-01",
       "endDate": "2020-08-31",
-      "courses": ["Applied Cryptography", "Data Privacy", "Implementation and Optimization of Security Algorithms"]
+      "courses": ["Applied Cryptography", "Data Privacy", "Biometrics", "Implementation and Optimization of Security Algorithms"]
+    },
+    {
+      "institution": "Inha University, Incheon, Korea",
+      "area": "Department of Computer Engineering",
+      "studyType": "Master in Computer Security",
+      "startDate": "2013-03-01",
+      "endDate": "2015-08-31",
+      "courses": ["Implementation and Optimization of Security Algorithms", "Mobile Security", "Data Privacy"]
+    },
+    {
+      "institution": "Inha University, Incheon, Korea",
+      "location": "Republic of Korea",
+      "studyType": "Bachelor in Computer Science",
+      "startDate": "2009-03-01",
+      "endDate": "2013-02-28",
+      "courses": ["Intern at the Information Security Lab"]
     }
   ],
   "awards": [

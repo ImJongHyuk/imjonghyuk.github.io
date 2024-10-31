@@ -131,14 +131,14 @@
   ],
   "references": [
     {
-      "name": "Professor Mun-Kyu Lee",
+      "name": "Professor Mun-Kyu Lee (Graduate Supervisor)",
       "icon": "fa-solid fa-user-graduate",
-      "reference": "mailto:mklee@inha.ac.kr"
+      "reference": "Email: mklee@inha.ac.kr"
     },
     {
       "name": "PhD. Hee-Yong Kwon",
       "icon": "fa-solid fa-user-friends",
-      "reference": "mailto:heeyong.kr@gmail.com"
+      "reference": "Email: heeyong.kr@gmail.com"
     }
   ],
   "projects": [

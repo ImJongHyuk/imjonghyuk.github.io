@@ -133,12 +133,12 @@
     {
       "name": "Professor Mun-Kyu Lee",
       "icon": "fa-solid fa-user-graduate",
-      "reference": ""
+      "reference": "mailto:mklee@inha.ac.kr"
     },
     {
       "name": "PhD. Hee-Yong Kwon",
       "icon": "fa-solid fa-user-friends",
-      "reference": ""
+      "reference": "mailto:heeyong.kr@gmail.com"
     }
   ],
   "projects": [

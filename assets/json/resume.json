@@ -30,7 +30,7 @@
       "startDate": "2022-07-01",
       "endDate": "Present",
       "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in IaaS.",
-      "highlights": ["Ceph", "Backend", "Cloud Storage", "IaaS"]
+      "highlights": ["Backend Development", "Cloud Storage (Ceph)"]
     },
     {
       "name": "Storage Team, Tmax Tibero",
@@ -39,7 +39,7 @@
       "startDate": "2020-07-01",
       "endDate": "2022-06-30",
       "summary": "Developed and improved Tibero Active Storage (TAS), a dedicated storage system that provides high availability for Tibero (DBMS), and also developed ZetaData, Tibero's high-performance appliance product.",
-      "highlights": ["Storage System", "Tibero", "DBMS", "System Programming"]
+      "highlights": ["Storage Backend", "Tibero (DBMS)"]
     }
   ],
   "education": [

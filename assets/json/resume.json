@@ -51,7 +51,7 @@
       "studyType": "PhD",
       "startDate": "2015-09-01",
       "endDate": "2020-08-31",
-      "courses": ["Applied Cryptography", "Data Privacy", ]
+      "courses": ["Applied Cryptography", "Data Privacy", "Implementation and Optimization of Security Algorithms"]
     }
   ],
   "awards": [

@@ -96,56 +96,25 @@
       "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "C++",
-        "C",
-        "Python",
-        "Java",
-        "Bash",
-        "SQL"
-      ]
+      "keywords": ["C++", "C", "Python", "Java", "Bash", "SQL"]
     },
     {
       "name": "Technologies",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Cryptography",
-        "Git",
-        "Docker",
-        "Ceph",
-        "CppRestSDK",
-        "FastAPI",
-        "Linux",
-        "Parallel Computing",
-        "Valgrind"        
-      ]
+      "keywords": ["Cryptography", "Git", "Docker", "Ceph", "CppRestSDK", "FastAPI", "Linux", "Parallel Computing", "Valgrind"]
     }
   ],
   "interests": [
     {
       "name": "Development",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Backend Development",
-        "Cloud/DB Storage",
-        "Performance Optimization",
-        "Cryptographic Algorithm Implementation",
-        "System Programming",
-        "Parallel Computing"
-      ]
+      "keywords": ["Backend Development", "Cloud/DB Storage", "Performance Optimization", "Cryptographic Algorithm Implementation", "System Programming", "Parallel Computing"]
     },
     {
       "name": "Research & Technology",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Backend System Architecture",
-        "Distributed Storage System",
-        "Applied Cryptography & Data Privacy",
-        "Blockchain",
-        "Code Quality Improvement",
-        "Homomorphic/Functional Encryption"
-      ]
+      "keywords": ["Backend System Architecture", "Distributed Storage System", "Applied Cryptography & Data Privacy", "Blockchain", "Code Quality Improvement", "Homomorphic/Functional Encryption"]
     }
   ],
   "references": [

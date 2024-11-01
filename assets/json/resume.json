@@ -61,20 +61,11 @@
     },
     {
       "institution": "Inha University, Incheon, Korea",
-      "location": "Republic of Korea",
+      "area": "Department of Computer and Information Engineering",
       "studyType": "Bachelor in Computer Science",
       "startDate": "2009-03-01",
       "endDate": "2013-02-28",
       "courses": ["Interned at the Information Security Lab (Supervisor: Professor. Mun-Kyu Lee)"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "publications": [

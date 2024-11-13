@@ -8,9 +8,9 @@ middle_name:
 last_name: Im
 email: jonghyuk_im@naver.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Descriptions
+  Backend developer Jong-Hyuk Im, Ph.D., specializing in privacy enhancement, applied cryptography, and storage system development.
 footer_text:
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Jong-Hyuk, privacy, crypto, phd, developer, backend, distributed-storage, academic-website, portfolio-website # add your own keywords or leave empty
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

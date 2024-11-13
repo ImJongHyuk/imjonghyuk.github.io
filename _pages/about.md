@@ -21,8 +21,12 @@ social: true # includes social icons at the bottom of the page
 
 현재는 백엔드, 분산 스토리지, DBMS와 관련된 개발을 하고 있으며, 데이터 프라이버시와 알고리즘 최적화에 대한 관심을 지속하고 있습니다.
 
+기술로 사람들의 삶에 의미 있는 변화를 더하고 싶습니다.
+
 
 I received my Ph.D. from Inha University in 2020, focusing on data privacy enhancement and the optimized implementation of related algorithms.
 Specifically, I designed, conducted security analysis, implemented, and experimentally validated privacy-enhancing protocols for practical applications such as biometric authentication and blockchain. 
 
 Currently, I am involved in development related to backend, distributed storage, and database systems, while maintaining a strong interest in data privacy and algorithm optimization.
+
+I want to make a meaningful impact on people’s lives through technology.

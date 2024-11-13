@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 12 Years, <b>Researching</b> Dveloper.
+subtitle: 12 Years, Researching Dveloper.
 
 profile:
   align: right

@@ -6,7 +6,7 @@
     "email": "jonghyuk_im@naver.com",
     "phone": "",
     "url": "https://imjonghyuk.github.io/",
-    "summary": "It's my summary",
+    "summary": "Expertise in: (1) Security Algorithm implementation and optimization, (2) Privacy-Enhancing Technologies (PETs) and applied cryptography, and (3) Distributed storage systems and back-end developments.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,22 +24,31 @@
   },
   "work": [
     {
-      "name": "Storage Team, Tmax Cloud",
-      "position": "Developer",
-      "url": "https://www.tmaxcloud.com/",
-      "startDate": "2022-07-01",
+      "name": "Storage/Eng. Team, Dnotitia",
+      "position": "Storage System Engineer",
+      "url": "https://www.dnotitia.com/",
+      "startDate": "2025-01-01",
       "endDate": "Present",
-      "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in IaaS.",
-      "highlights": ["Backend Development", "Cloud Storage (Ceph)"]
+      "summary": "Developed an optimized storage system to enhance the performance and scalability of vector databases for AI applications, while also working on storage system engineering.",
+      "highlights": ["Distributed Storage System", "Backend Development", "Storage System Engineering"]
     },
     {
-      "name": "Storage Team, Tmax Tibero",
-      "position": "Developer",
+      "name": "Storage Team, Tmax Cloud",
+      "position": "Software Engineer",
+      "url": "https://www.tmaxcloud.com/",
+      "startDate": "2022-07-01",
+      "endDate": "2024-11-26",
+      "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in IaaS.",
+      "highlights": ["Distributed Storage System", "Backend Development"]
+    },
+    {
+      "name": "Storage Team, Tmax Tibero (Dispatched from Tmax Cloud)",
+      "position": "Software Engineer",
       "url": "https://www.tmaxtibero.com/",
       "startDate": "2020-07-01",
       "endDate": "2022-06-30",
       "summary": "Developed and improved Tibero Active Storage (TAS), a dedicated storage system that provides high availability for Tibero (DBMS), and also developed ZetaData, Tibero's high-performance appliance product.",
-      "highlights": ["Storage Backend", "Tibero (DBMS)"]
+      "highlights": ["Storage Backend System", "Tibero Active Storage", "ZetaData"]
     }
   ],
   "education": [
@@ -47,8 +56,8 @@
       "institution": "Inha University, Incheon, Korea",
       "area": "Department of Electrical and Computer Engineering",
       "studyType": "PhD in Computer Security",
-      "startDate": "2015-09-01",
-      "endDate": "2020-08-31",
+      "startDate": "2015-08-31",
+      "endDate": "2020-08-22",
       "courses": ["Applied Cryptography", "Data Privacy", "Biometrics", "Implementation and Optimization of Security Algorithms"]
     },
     {
@@ -94,27 +103,42 @@
   "skills": [
     {
       "name": "Languages",
-      "level": "Master",
+      "level": "Proficient",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["C++", "C", "Python", "Java", "Bash", "SQL"]
+      "keywords": ["C++", "C", "Python", "Java"]
     },
     {
-      "name": "Technologies",
-      "level": "Master",
+      "name": "Languages",
+      "level": "Experienced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Cryptography", "Git", "Docker", "Ceph", "CppRestSDK", "FastAPI", "Linux", "Parallel Computing", "Valgrind"]
+      "keywords": ["Bash", "SQL", "Go", "js"]
     }
   ],
   "interests": [
     {
       "name": "Development",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Backend Development", "Cloud/DB Storage", "Performance Optimization", "Cryptographic Algorithm Implementation", "System Programming", "Parallel Computing"]
+      "keywords": [
+        "Distributed Storage Systems", 
+        "Backend Development",
+        "Performance Engineering", 
+        "Cryptographic Library Development", 
+        "Privacy-Enhancing Technologies (PETs)"
+        "System Programming"
+      ]
     },
     {
       "name": "Research & Technology",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Backend System Architecture", "Distributed Storage System", "Applied Cryptography & Data Privacy", "Blockchain", "Code Quality Improvement", "Homomorphic/Functional Encryption"]
+      "keywords": [
+        "Distributed Storage Architecture", 
+        "Applied Cryptography & Data Privacy", 
+        "Privacy-Enhancing Technologies (PETs)",
+        "Cryptographic Algorithm Optimization & Implementation",
+        "Backend System Design & Optimization", 
+        "Homomorphic & Functional Encryption", 
+        "Software Reliability & Code Quality Enhancement"
+      ]
     }
   ],
   "references": [

@@ -6,7 +6,7 @@
     "email": "jonghyuk_im@naver.com",
     "phone": "",
     "url": "https://imjonghyuk.github.io/",
-    "summary": "Expertise in: (1) Security Algorithm implementation and optimization, (2) Privacy-Enhancing Technologies (PETs) and applied cryptography, and (3) Distributed storage systems and back-end developments.",
+    "summary": "Expertise in: <br>(1) Security Algorithm implementation and optimization, <br>(2) Privacy-Enhancing Technologies (PETs) and applied cryptography, <br>(3) Distributed storage systems and back-end developments.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -38,7 +38,7 @@
       "url": "https://www.tmaxcloud.com/",
       "startDate": "2022-07-01",
       "endDate": "2024-11-26",
-      "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in IaaS.",
+      "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in the IaaS product.",
       "highlights": ["Distributed Storage System", "Backend Development"]
     },
     {
@@ -47,7 +47,7 @@
       "url": "https://www.tmaxtibero.com/",
       "startDate": "2020-07-01",
       "endDate": "2022-06-30",
-      "summary": "Developed and improved Tibero Active Storage (TAS), a dedicated storage system that provides high availability for Tibero (DBMS), and also developed ZetaData, Tibero's high-performance appliance product.",
+      "summary": "Developed and improved Tibero Active Storage (TAS), a dedicated storage system that provides high availability and performance for Tibero (DBMS), and also developed ZetaData, Tibero's high-performance appliance product.",
       "highlights": ["Storage Backend System", "Tibero Active Storage", "ZetaData"]
     }
   ],
@@ -55,18 +55,18 @@
     {
       "institution": "Inha University, Incheon, Korea",
       "area": "Department of Electrical and Computer Engineering",
-      "studyType": "PhD in Computer Security",
+      "studyType": "PhD in Computer Science",
       "startDate": "2015-08-31",
       "endDate": "2020-08-22",
-      "courses": ["Applied Cryptography", "Data Privacy", "Biometrics", "Implementation and Optimization of Security Algorithms"]
+      "courses": ["Privacy-Enhancing Technologies", "Applied Cryptography & Data Privacy", "Implementation and Optimization of Security Algorithms", "Homomorphic & Functional Encryption", "Biometrics"]
     },
     {
       "institution": "Inha University, Incheon, Korea",
       "area": "Department of Computer Engineering",
-      "studyType": "Master in Computer Security",
+      "studyType": "Master in Computer Science",
       "startDate": "2013-03-01",
       "endDate": "2015-08-31",
-      "courses": ["Implementation and Optimization of Security Algorithms", "Mobile Security", "Data Privacy"]
+      "courses": ["Implementation and Optimization of Security Algorithms", "Homomorphic Encryption", "Mobile Security"]
     },
     {
       "institution": "Inha University, Incheon, Korea",
@@ -79,25 +79,32 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Practical privacy-preserving face authentication for smartphones secure against malicious clients",
+      "publisher": "IEEE Transactions on Information Forensics and Security",
+      "releaseDate": "2020-01-28",
+      "url": "https://ieeexplore.ieee.org/document/8970309",
+      "summary": "A privacy-preserving face authentication system for smartphones is proposed, ensuring security against malicious clients and honest-but-curious servers through homomorphic encryption-based Euclidean distance computation and a blinding technique."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Privacy-preserving peer-to-peer energy trading in blockchain-enabled smart grids using functional encryption",
+      "publisher": "Energies",
+      "releaseDate": "2020-03-12",
+      "url": "https://www.mdpi.com/1996-1073/13/6/1321",
+      "summary": "A blockchain-based P2P energy trading system is proposed, using functional encryption to protect bid data while ensuring publicly verifiable peer matching through smart contracts."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Security analysis and improvement of fingerprint authentication for smartphones",
+      "publisher": "Mobile Information Systems",
+      "releaseDate": "2016-03-08",
+      "url": "https://www.hindawi.com/journals/misy/2016/8973828/",
+      "summary": "A security analysis of a smartphone fingerprint verification service reveals vulnerabilities that allow a malicious app to extract fingerprint images via interprocess communication and decrypt stored fingerprint features, with proposed countermeasures to mitigate these risks."
+    },
+    {
+      "name": "Privacy-preserving electricity billing system using functional encryption",
+      "publisher": "Energies",
+      "releaseDate": "2019-04-01",
+      "url": "https://www.mdpi.com/1996-1073/12/7/1237",
+      "summary": "A privacy-preserving electricity billing method using functional encryption is proposed, ensuring data privacy without compromising measurement quality, with feasibility demonstrated through a prototype system using real-world smart meter data."
     }
   ],
   "skills": [
@@ -105,13 +112,13 @@
       "name": "Languages",
       "level": "Proficient",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["C++", "C", "Python", "Java"]
+      "keywords": ["C++", "C", "Python", "Java", "Bash", "SQL", "Go", "js"]
     },
     {
-      "name": "Languages",
-      "level": "Experienced",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Bash", "SQL", "Go", "js"]
+      "name": "Tools",
+      "level": "Proficient",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Ceph", "DAOS", "Tibero", "Postgres", "FastAPI"]
     }
   ],
   "interests": [
@@ -120,24 +127,22 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Distributed Storage Systems", 
-        "Backend Development",
-        "Performance Engineering", 
+        "Backend Development & Optimization",
         "Cryptographic Library Development", 
-        "Privacy-Enhancing Technologies (PETs)",
-        "System Programming"
+        "Applied Cryptography Implementation",
+        "System Programming & Engineering"
       ]
     },
     {
-      "name": "Research & Technology",
+      "name": "Research",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Distributed Storage Architecture", 
-        "Applied Cryptography & Data Privacy", 
         "Privacy-Enhancing Technologies (PETs)",
+        "Distributed Storage Architecture", 
+        "Applied Cryptography", 
+        "Homomorphic & Functional Encryption",
         "Cryptographic Algorithm Optimization & Implementation",
-        "Backend System Design & Optimization", 
-        "Homomorphic & Functional Encryption", 
-        "Software Reliability & Code Quality Enhancement"
+        "Backend & Systems Research"
       ]
     }
   ],

@@ -105,6 +105,20 @@
       "releaseDate": "2019-04-01",
       "url": "https://www.mdpi.com/1996-1073/12/7/1237",
       "summary": "A privacy-preserving electricity billing method using functional encryption is proposed, ensuring data privacy without compromising measurement quality, with feasibility demonstrated through a prototype system using real-world smart meter data."
+    },    
+    {
+      "name": "Privacy-Preserving K-means Clustering using Homomorphic Encryption in a Multiple Clients Environment",
+      "publisher": "The Journal of Korean Institute of Next Generation Computing",
+      "releaseDate": "2019-08-01",
+      "url": "http://doi.org/10.23019/kingpc.15.4.201908.001",
+      "summary": "A privacy-preserving K-means clustering method using homomorphic encryption is proposed, enabling machine learning while protecting client data privacy, with feasibility demonstrated in a multi-client model."
+    },
+    {
+      "name": "Secure power demand forecasting using regression analysis on Intel SGX",
+      "publisher": "The Journal of Korean Institute of Next Generation Computing",
+      "releaseDate": "2017-08",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002260280",
+      "summary": "A secure power demand forecasting method using regression analysis within Intel SGX is proposed, ensuring user privacy while achieving lower average error rates compared to existing privacy-preserving approaches."
     }
   ],
   "skills": [

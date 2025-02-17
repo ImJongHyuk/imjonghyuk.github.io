@@ -2,31 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: 12 Years, <b>Researching Dveloper</b>.
+subtitle: 13 Years, <b>Researching Dveloper</b>.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: char.jpeg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Sample Image</p>
+    email: jonghyuk_im@naver.com
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-12년째, 연구하며 개발하는 임종혁입니다. 실용적인 데이터 프라이버시 강화 및 알고리즘 최적화 구현을 주제로 역량을 쌓으며 인하대학교에서 2020년에 박사 학위를 취득했습니다.
-주로 바이오인증과 블록체인 같은 실용적 응용 분야에 적용할 수 있는 프라이버시 강화 프로토콜을 설계하고, 안전성 분석 및 구현, 실험을 통한 검증 등을 수행했습니다. 
+13년째 연구하며 개발하는 임종혁입니다.
 
-현재는 백엔드, 분산 스토리지, DBMS와 관련된 개발을 하고 있으며, 데이터 프라이버시와 알고리즘 최적화에 대한 관심을 지속하고 있습니다.
+2020년, 인하대학교에서 '데이터 프라이버시 강화'와 '알고리즘 최적화'를 주제로 박사학위를 취득하고,
+바이오인증·블록체인 등 다양한 실용 분야에 적용 가능한 프라이버시 강화 프로토콜을 동형·함수 암호, TEE 등의 기술을 기반으로 설계하고 구현 및 검증했습니다.
+동시에 다양한 보안 알고리즘 최적화 구현 과제를 주도하며 실무 역량을 쌓았습니다.
 
-기술로 사람들의 삶에 의미 있는 변화를 더하고 싶습니다.
+이후 보안 연구 역량을 바탕으로 클라우드 및 DB 전용 스토리지 시스템 개발, 고성능 백엔드와 클라우드 엔지니어링 등 산업 현장에서의 경험을 쌓으며 전문성을 확장해 왔습니다.
+현재는 AI를 위한 벡터 스토리지를 개발하며, 급증하는 데이터의 효율적 처리와 프라이버시 이슈 해결을 위해 끊임없이 고민하고 있습니다.
 
-
-I received my Ph.D. from Inha University in 2020, focusing on data privacy enhancement and the optimized implementation of related algorithms.
-Specifically, I designed, conducted security analysis, implemented, and experimentally validated privacy-enhancing protocols for practical applications such as biometric authentication and blockchain. 
-
-Currently, I am involved in development related to backend, distributed storage, and database systems, while maintaining a strong interest in data privacy and algorithm optimization.
-
-I want to make a meaningful impact on people’s lives through technology.
+기술을 통해 사람들의 삶에 의미 있는 변화를 더하고 싶습니다.

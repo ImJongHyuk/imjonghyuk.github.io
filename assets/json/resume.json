@@ -105,7 +105,7 @@
       "releaseDate": "2019-04-01",
       "url": "https://www.mdpi.com/1996-1073/12/7/1237",
       "summary": "A privacy-preserving electricity billing method using functional encryption is proposed, ensuring data privacy without compromising measurement quality, with feasibility demonstrated through a prototype system using real-world smart meter data."
-    },    
+    },
     {
       "name": "Privacy-Preserving K-means Clustering using Homomorphic Encryption in a Multiple Clients Environment",
       "publisher": "The Journal of Korean Institute of Next Generation Computing",
@@ -140,9 +140,9 @@
       "name": "Development",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Distributed Storage Systems", 
+        "Distributed Storage Systems",
         "Backend Development & Optimization",
-        "Cryptographic Library Development", 
+        "Cryptographic Library Development",
         "Applied Cryptography Implementation",
         "System Programming & Engineering"
       ]
@@ -152,8 +152,8 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Privacy-Enhancing Technologies (PETs)",
-        "Distributed Storage Architecture", 
-        "Applied Cryptography", 
+        "Distributed Storage Architecture",
+        "Applied Cryptography",
         "Homomorphic & Functional Encryption",
         "Cryptographic Algorithm Optimization & Implementation",
         "Backend & Systems Research"

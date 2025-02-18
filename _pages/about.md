@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: 13 Years, <b>Researching Dveloper</b>.
+subtitle: 13년째, 항상 연구하며 개발하고 있습니다.
 
 profile:
   align: right
@@ -15,8 +15,6 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
-13년째 연구하며 개발하는 임종혁입니다.
 
 2020년, 인하대학교에서 '데이터 프라이버시 강화'와 '알고리즘 최적화'를 주제로 박사학위를 취득하고,
 바이오인증·블록체인 등 다양한 실용 분야에 적용 가능한 프라이버시 강화 프로토콜을 동형·함수 암호, TEE 등의 기술을 기반으로 설계하고 구현 및 검증했습니다.

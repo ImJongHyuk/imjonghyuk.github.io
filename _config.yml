@@ -10,7 +10,7 @@ email: jonghyuk_im@naver.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Backend developer Jong-Hyuk Im, Ph.D., specializing in privacy enhancement, applied cryptography, and storage system development.
 footer_text:
-keywords: Jong-Hyuk, privacy, crypto, phd, developer, backend, distributed-storage, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Jong-Hyuk, privacy, crypto, phd, developer, backend, storage, academic-website, portfolio-website # add your own keywords or leave empty
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -166,12 +166,12 @@ disqus_shortname: nonamed # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter

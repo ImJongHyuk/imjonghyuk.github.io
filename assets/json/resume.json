@@ -81,35 +81,35 @@
     {
       "name": "Practical privacy-preserving face authentication for smartphones secure against malicious clients",
       "publisher": "IEEE Transactions on Information Forensics and Security",
-      "releaseDate": "2020-01-28",
+      "releaseDate": "2020-01",
       "url": "https://ieeexplore.ieee.org/document/8970309",
       "summary": "A privacy-preserving face authentication system for smartphones is proposed, ensuring security against malicious clients and honest-but-curious servers through homomorphic encryption-based Euclidean distance computation and a blinding technique."
     },
     {
       "name": "Privacy-preserving peer-to-peer energy trading in blockchain-enabled smart grids using functional encryption",
       "publisher": "Energies",
-      "releaseDate": "2020-03-12",
+      "releaseDate": "2020-03",
       "url": "https://www.mdpi.com/1996-1073/13/6/1321",
       "summary": "A blockchain-based P2P energy trading system is proposed, using functional encryption to protect bid data while ensuring publicly verifiable peer matching through smart contracts."
     },
     {
       "name": "Security analysis and improvement of fingerprint authentication for smartphones",
       "publisher": "Mobile Information Systems",
-      "releaseDate": "2016-03-08",
+      "releaseDate": "2016-03",
       "url": "https://www.hindawi.com/journals/misy/2016/8973828/",
       "summary": "A security analysis of a smartphone fingerprint verification service reveals vulnerabilities that allow a malicious app to extract fingerprint images via interprocess communication and decrypt stored fingerprint features, with proposed countermeasures to mitigate these risks."
     },
     {
       "name": "Privacy-preserving electricity billing system using functional encryption",
       "publisher": "Energies",
-      "releaseDate": "2019-04-01",
+      "releaseDate": "2019-04",
       "url": "https://www.mdpi.com/1996-1073/12/7/1237",
       "summary": "A privacy-preserving electricity billing method using functional encryption is proposed, ensuring data privacy without compromising measurement quality, with feasibility demonstrated through a prototype system using real-world smart meter data."
     },
     {
       "name": "Privacy-Preserving K-means Clustering using Homomorphic Encryption in a Multiple Clients Environment",
       "publisher": "The Journal of Korean Institute of Next Generation Computing",
-      "releaseDate": "2019-08-01",
+      "releaseDate": "2019-08",
       "url": "http://doi.org/10.23019/kingpc.15.4.201908.001",
       "summary": "A privacy-preserving K-means clustering method using homomorphic encryption is proposed, enabling machine learning while protecting client data privacy, with feasibility demonstrated in a multi-client model."
     },

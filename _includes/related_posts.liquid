@@ -1,22 +1,47 @@
+<br>
+<hr>
+<br>
+<ul class="list-disc pl-8"></ul>
+<h2 class="text-3xl font-semibold mb-4 mt-12">이 글을 재미있게 보셨나요?</h2>
+
+{% assign current_category = page.categories[0] %}
+{% assign current_date = page.date %}
+{% assign current_url = page.url %}
+
+{% assign posts_in_category = site.posts | where: "categories", current_category | where_exp: "post", "post.url != current_url" %}
+{% assign filtered_posts = posts_in_category | where_exp: "post", "post.url != current_url" %}
+{% assign previous_posts = filtered_posts | where_exp: "post", "post.date < current_date" | sort: "date" | reverse | limit: 2 %}
+{% assign next_posts = filtered_posts | where_exp: "post", "post.date > current_date" | sort: "date" | limit: 2 %}
+{% assign related_posts = previous_posts | concat: next_posts %}
+
+{% if related_posts.size > 0 %}
+  <h5 class="mb-3"> "{{ current_category }}" 카테고리의 다른 글입니다.</h5>
+
+  {% for post in related_posts %}
+    <div class="mb-4 p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="text-pink-700 font-bold hover:underline" style="font-size: 1.25rem !important;">
+        {{ post.title }}
+      </a>
+      <p class="mt-1 text-gray-500" style="font-size: 0.875rem !important;">
+        {{ post.date | date: "[ %Y-%m-%d ] " }} {{ post.description }}
+      </p>
+    </div>
+  {% endfor %}
+{% endif %}
+<br>
+
+{% assign same_category_urls = related_posts | map: "url" %}
+
 {% assign have_related_posts = false %}
 {% for post in site.related_posts | limit: site.related_blog_posts.max_related %}
-  {% unless have_related_posts %}
-    {% assign have_related_posts = true %}
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  {% unless same_category_urls contains post.url %}
+    {% unless have_related_posts %}
+      {% assign have_related_posts = true %}
+      <!-- Adds related posts to the end of an article -->
+      <h5 class="mb-2">다음 글도 한 번 읽어 보시겠어요?</h5>
+    {% endunless %}
+    <li class="my-2">
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endunless %}
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
 {% endfor %}
-{% if site.newsletter.enabled and site.footer_fixed %}
-  <p class="mb-2" style="margin-top: 1.5rem !important">Subscribe to be notified of future articles:</p>
-  {% include scripts/newsletter.liquid left=true %}
-{% endif %}

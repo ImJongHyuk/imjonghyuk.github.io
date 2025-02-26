@@ -9,11 +9,11 @@ layout: default
 
   <article class="archive">
     <div class="table-responsive">
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm table-borderless text-left">
         {% for post in page.posts %}
           <tr>
-            <th scope="row">{{ post.date | date: '%b %d, %Y' }}</th>
-            <td>
+            <th scope="row" class="text-left align-top">{{ post.date | date: '%b %d, %Y' }}</th>
+            <td class="text-left align-top">
               {% if post.redirect == blank %}
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
               {% elsif post.redirect contains '://' %}

@@ -58,7 +58,13 @@
       "studyType": "PhD in Computer Science",
       "startDate": "2015-08-31",
       "endDate": "2020-08-22",
-      "courses": ["Privacy-Enhancing Technologies", "Applied Cryptography & Data Privacy", "Implementation and Optimization of Security Algorithms", "Homomorphic & Functional Encryption", "Biometrics"]
+      "courses": [
+        "Privacy-Enhancing Technologies",
+        "Applied Cryptography & Data Privacy",
+        "Implementation and Optimization of Security Algorithms",
+        "Homomorphic & Functional Encryption",
+        "Biometrics"
+      ]
     },
     {
       "institution": "Inha University, Incheon, Korea",

@@ -1,5 +1,7 @@
 # Jong-Hyuk Im`s Portfolio.
 
+![Profile Image](assets/img/char-face.jpeg)
+
 ## Branches
 
 - `main`: Production branch where published content goes live. Contains the latest stable version.

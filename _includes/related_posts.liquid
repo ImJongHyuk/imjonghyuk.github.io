@@ -8,14 +8,14 @@
 {% assign current_date = page.date %}
 {% assign current_url = page.url %}
 
-{% assign posts_in_category = site.posts | where: "categories", current_category | where_exp: "post", "post.url != current_url" %}
-{% assign filtered_posts = posts_in_category | where_exp: "post", "post.url != current_url" %}
-{% assign previous_posts = filtered_posts | where_exp: "post", "post.date < current_date" | sort: "date" | reverse | limit: 2 %}
-{% assign next_posts = filtered_posts | where_exp: "post", "post.date > current_date" | sort: "date" | limit: 2 %}
+{% assign posts_in_category = site.posts | where: 'categories', current_category | where_exp: 'post', 'post.url != current_url' %}
+{% assign filtered_posts = posts_in_category | where_exp: 'post', 'post.url != current_url' %}
+{% assign previous_posts = filtered_posts | where_exp: 'post', 'post.date < current_date' | sort: 'date' | reverse | limit: 2 %}
+{% assign next_posts = filtered_posts | where_exp: 'post', 'post.date > current_date' | sort: 'date' | limit: 2 %}
 {% assign related_posts = previous_posts | concat: next_posts %}
 
 {% if related_posts.size > 0 %}
-  <h5 class="mb-3"> "{{ current_category }}" 카테고리의 다른 글입니다.</h5>
+  <h5 class="mb-3">"{{ current_category }}" 카테고리의 다른 글입니다.</h5>
 
   {% for post in related_posts %}
     <div class="mb-4 p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
@@ -23,14 +23,15 @@
         {{ post.title }}
       </a>
       <p class="mt-1 text-gray-500" style="font-size: 0.875rem !important;">
-        {{ post.date | date: "[ %Y-%m-%d ] " }} {{ post.description }}
+        {{ post.date | date: '[ %Y-%m-%d ] ' }}
+        {{ post.description }}
       </p>
     </div>
   {% endfor %}
 {% endif %}
 <br>
 
-{% assign same_category_urls = related_posts | map: "url" %}
+{% assign same_category_urls = related_posts | map: 'url' %}
 
 {% assign have_related_posts = false %}
 {% for post in site.related_posts | limit: site.related_blog_posts.max_related %}

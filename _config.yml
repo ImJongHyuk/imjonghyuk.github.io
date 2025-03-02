@@ -8,7 +8,7 @@ middle_name:
 last_name: Im
 email: jonghyuk_im@naver.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Backend developer Jong-Hyuk Im, Ph.D., specializing in privacy enhancement, applied cryptography, and storage system development.
+  Software engineer and researcher, Jong-Hyuk Im, Ph.D., working on privacy-enhancing technologies, cloud storage systems, and applied cryptography.
 footer_text:
 keywords: Jong-Hyuk, privacy, crypto, phd, developer, backend, storage, academic-website, portfolio-website # add your own keywords or leave empty
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)

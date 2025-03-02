@@ -8,7 +8,7 @@ middle_name:
 last_name: Im
 email: jonghyuk_im@naver.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Backend developer Jong-Hyuk Im, Ph.D., specializing in privacy enhancement, applied cryptography, and storage system development.
+  Software engineer and researcher, Jong-Hyuk Im, Ph.D., specializing in privacy-enhancing technologies, applied cryptography, and storage systems.
 footer_text:
 keywords: Jong-Hyuk, privacy, crypto, phd, developer, backend, storage, academic-website, portfolio-website # add your own keywords or leave empty
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -60,9 +60,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: assets/img/char-face.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration

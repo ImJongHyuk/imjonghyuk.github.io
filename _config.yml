@@ -655,8 +655,8 @@ introduction:
   image: assets/img/char-face.jpeg
   style:
     container_margin: "0 0 2rem 0"
-    image_width: "9rem"
-    image_max_width: "14rem"
+    image_width: "7rem"
+    image_max_width: "11rem"
     image_border: "1px solid #eee"
-    title_font_size: "clamp(1.1rem, 1.35rem, 1.65vw)"
+    title_font_size: "clamp(1.15rem, 1.35rem, 1.6vw)"
     text_font_size: "clamp(1rem, 1.2rem, 1.5vw)"

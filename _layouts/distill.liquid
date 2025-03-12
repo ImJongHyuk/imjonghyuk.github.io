@@ -101,6 +101,40 @@
           </d-contents>
         {% endif %}
         {{ content }}
+
+        {% if site.introduction.enabled %}
+          <div class="medium-style-intro">
+            <hr class="intro-divider">
+            <table style="width: 100%; border: none; border-collapse: collapse; margin: {{ site.introduction.style.container_margin }};">
+              <tr>
+                {% if page.author_image or site.introduction.image %}
+                  {% assign image_src = page.author_image | default: site.introduction.image %}
+                  <td style="width: auto; min-width: {{ site.introduction.style.image_width }}; max-width: {{ site.introduction.style.image_max_width }}; vertical-align: top; padding-top: 0.3rem; padding-right: 1rem;">
+                    <img
+                      src="{{ site.baseurl }}/{{ image_src }}"
+                      alt="{{ page.authors[0].name | default: site.introduction.title }}"
+                      style="width: 100%; max-width: {{ site.introduction.style.image_max_width }}; height: auto; aspect-ratio: 1/1; object-fit: cover; border-radius: 50%; display: block; border: {{ site.introduction.style.image_border }};"
+                    >
+                  </td>
+                {% endif %}
+                <td style="vertical-align: top;">
+                  <h3 style="font-size: {{ site.introduction.style.title_font_size }}; font-weight: 700; margin-top: 0; margin-bottom: 0.5rem; color: #292929; font-family: system-ui, -apple-system, sans-serif;">
+                    {{ page.introduction_title | default: site.introduction.title | default: '소개' }}
+                  </h3>
+                  <div style="font-size: {{ site.introduction.style.text_font_size }}; line-height: 1.6; color: #444; font-family: system-ui, -apple-system, sans-serif;">
+                    {{ page.introduction | default: site.introduction.text }}
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        {% endif %}
+
+        {% if site.related_blog_posts.enabled %}
+          {% if page.related_posts != false %}
+            {% include related_posts.liquid %}
+          {% endif %}
+        {% endif %}
       </d-article>
 
       <d-appendix>

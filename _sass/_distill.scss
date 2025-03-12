@@ -333,3 +333,14 @@ d-appendix {
     }
   }
 }
+
+.medium-style-intro {
+  margin: 3rem 0;
+
+  .intro-divider {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+  }
+}

@@ -1,7 +1,3 @@
-<br>
-<hr>
-<br>
-<ul class="list-disc pl-8"></ul>
 <h2 class="text-3xl font-semibold mb-4 mt-12">이 글을 재미있게 보셨나요?</h2>
 
 {% assign current_category = page.categories[0] %}
@@ -14,19 +10,82 @@
 {% assign next_posts = filtered_posts | where_exp: 'post', 'post.date > current_date' | sort: 'date' | limit: 2 %}
 {% assign related_posts = previous_posts | concat: next_posts %}
 
+<style>
+  .related-post-card {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    text-decoration: none !important;
+    background-color: white;
+    transition:
+      background-color 0.3s ease,
+      box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+
+  .related-post-card:hover {
+    background-color: #fdf2f8;
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .related-post-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .related-post-text {
+    flex: 1;
+  }
+
+  .related-post-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    flex-shrink: 0;
+  }
+
+  .related-post-title {
+    font-size: 1.4rem;
+    color: #b509ac;
+    margin-bottom: 0.5rem;
+  }
+
+  .related-post-description {
+    font-size: 1.2rem;
+    color: #6b7280;
+  }
+
+  .related-post-caption {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin-top: 0.25rem;
+    font-style: italic;
+  }
+</style>
+
 {% if related_posts.size > 0 %}
   <h5 class="mb-3">"{{ current_category }}" 카테고리의 다른 글입니다.</h5>
 
   {% for post in related_posts %}
-    <div class="mb-4 p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-      <a href="{{ site.baseurl }}{{ post.url }}" class="text-pink-700 font-bold hover:underline" style="font-size: 1.25rem !important;">
-        {{ post.title }}
-      </a>
-      <p class="mt-1 text-gray-500" style="font-size: 0.875rem !important;">
-        {{ post.date | date: '[ %Y-%m-%d ] ' }}
-        {{ post.description }}
-      </p>
-    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="related-post-card">
+      <div class="related-post-content">
+        <div class="related-post-text">
+          <div class="related-post-title">
+            {{ post.title }}
+          </div>
+          <div class="related-post-description">
+            {{ post.description }}
+          </div>
+        </div>
+      </div>
+    </a>
   {% endfor %}
 {% endif %}
 <br>
@@ -38,11 +97,19 @@
   {% unless same_category_urls contains post.url %}
     {% unless have_related_posts %}
       {% assign have_related_posts = true %}
-      <!-- Adds related posts to the end of an article -->
-      <h5 class="mb-2">다음 글도 한 번 읽어 보시겠어요?</h5>
+      <h5 class="mb-3">다음 글도 한 번 읽어 보시겠어요?</h5>
     {% endunless %}
-    <li class="my-2">
-      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="related-post-card">
+      <div class="related-post-content">
+        <div class="related-post-text">
+          <div class="related-post-title">
+            {{ post.title }}
+          </div>
+          <div class="related-post-description">
+            {{ post.description }}
+          </div>
+        </div>
+      </div>
+    </a>
   {% endunless %}
 {% endfor %}

@@ -644,3 +644,19 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Distll Post Indroduction Section
+introduction:
+  enabled: true
+  position: end
+  title: 임종혁 (Jong-Hyuk Im)
+  text: >
+    데이터와 프라이버시에 관심이 많습니다. 보안 알고리즘 최적 구현을 시작으로 다양한 프라이버시 강화 연구 후 고성능 분산 스토리지를 개발했고, 현재는 AI를 위한 데이터 처리 기술을 개발하고 있습니다.
+  image: assets/img/char-face.jpeg
+  style:
+    container_margin: "0 0 2rem 0"
+    image_width: "9rem"
+    image_max_width: "14rem"
+    image_border: "1px solid #eee"
+    title_font_size: "clamp(1.2rem, 1.5rem, 1.8vw)"
+    text_font_size: "clamp(1rem, 1.2rem, 1.5vw)"

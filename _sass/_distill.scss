@@ -20,6 +20,8 @@ d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
+  font-size: 1.2rem !important;
+
   p,
   h1,
   h2,
@@ -31,6 +33,37 @@ d-article {
   table {
     color: var(--global-text-color) !important;
   }
+
+  p,
+  li,
+  table {
+    font-size: 1.2rem !important;
+  }
+
+  h1 {
+    font-size: 2.2rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  h3 {
+    font-size: 1.4rem !important;
+    font-weight: 600;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1.3rem !important;
+    font-weight: 400;
+  }
+
+  code {
+    font-size: 1.1rem !important;
+  }
+
   h1,
   h2,
   hr,
@@ -50,6 +83,7 @@ d-article {
   }
   blockquote {
     border-left: 2px solid var(--global-theme-color) !important;
+    font-size: 1.2rem !important;
   }
 
   // Style taken from code blocks
@@ -67,10 +101,12 @@ d-article {
     max-width: 100%;
     summary {
       color: var(--global-theme-color);
+      font-size: 1.2rem !important;
     }
     p {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
+      font-size: 1.2rem !important;
     }
   }
 
@@ -94,6 +130,7 @@ d-article {
 
     nav {
       grid-column: toc;
+      font-size: initial;
       a {
         border-bottom: none !important;
         &:hover {
@@ -103,6 +140,7 @@ d-article {
       h3 {
         margin-top: 0;
         margin-bottom: 1em;
+        font-size: initial;
       }
       div {
         display: block;
@@ -110,6 +148,7 @@ d-article {
         margin-bottom: 0.8em;
         color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
+        font-size: initial;
       }
       ul {
         padding-left: 1em;
@@ -118,6 +157,7 @@ d-article {
         list-style-type: none;
         li {
           margin-bottom: 0.25em;
+          font-size: initial;
         }
       }
     }
@@ -132,22 +172,146 @@ d-article {
 
   d-footnote {
     scroll-margin-top: 66px;
+    font-size: 1.1rem !important;
   }
 }
 
 d-appendix {
   border-top-color: var(--global-divider-color) !important;
   color: var(--global-distill-app-color) !important;
+  font-size: 1.1rem !important;
   h3,
   li,
   span {
     color: var(--global-distill-app-color) !important;
+  }
+  h3 {
+    font-size: 1.4rem !important;
+  }
+  li {
+    font-size: 1.1rem !important;
   }
   a,
   a.footnote-backlink {
     color: var(--global-distill-app-color) !important;
     &:hover {
       color: var(--global-hover-color) !important;
+    }
+  }
+}
+
+/* 모바일 환경에서 더 큰 폰트 크기 적용 */
+@media (max-width: 768px) {
+  d-article {
+    font-size: 1.4rem !important;
+
+    p,
+    li,
+    table {
+      font-size: 1.4rem !important;
+    }
+
+    h1 {
+      font-size: 2.4rem !important;
+    }
+
+    h2 {
+      font-size: 2.1rem !important;
+    }
+
+    h3 {
+      font-size: 1.8rem !important;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1.6rem !important;
+    }
+
+    code {
+      font-size: 1.3rem !important;
+    }
+
+    blockquote {
+      font-size: 1.4rem !important;
+    }
+
+    details {
+      summary {
+        font-size: 1.4rem !important;
+      }
+      p {
+        font-size: 1.4rem !important;
+      }
+    }
+
+    d-contents {
+      nav {
+        font-size: initial;
+        h3 {
+          font-size: initial;
+        }
+        div {
+          font-size: initial;
+        }
+        ul li {
+          font-size: initial;
+        }
+      }
+    }
+
+    d-footnote {
+      font-size: 1.3rem !important;
+    }
+  }
+
+  d-appendix {
+    font-size: 1.3rem !important;
+    h3 {
+      font-size: 1.6rem !important;
+    }
+    li {
+      font-size: 1.3rem !important;
+    }
+  }
+}
+
+/* 더 작은 모바일 화면에서 추가 조정 */
+@media (max-width: 480px) {
+  d-article {
+    font-size: 1.5rem !important;
+
+    p,
+    li,
+    table {
+      font-size: 1.5rem !important;
+    }
+
+    h1 {
+      font-size: 2.6rem !important;
+    }
+
+    h2 {
+      font-size: 2.3rem !important;
+    }
+
+    h3 {
+      font-size: 2rem !important;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1.8rem !important;
+    }
+
+    code {
+      font-size: 1.4rem !important;
+    }
+
+    blockquote {
+      font-size: 1.5rem !important;
     }
   }
 }

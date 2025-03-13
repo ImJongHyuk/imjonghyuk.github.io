@@ -1,13 +1,8 @@
 <div class="news">
   {% if site.latest_posts != blank %}
     {% assign latest_posts_size = site.posts | size %}
-    <div
-      class="table-responsive"
-      {% if site.latest_posts.scrollable and latest_posts_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
-      <table class="table table-sm table-borderless">
+    <div>
+      <div class="row row-cols-1">
         {% assign latest_posts = site.posts %}
         {% if site.latest_posts.limit %}
           {% assign latest_posts_limit = site.latest_posts.limit %}
@@ -15,34 +10,90 @@
           {% assign latest_posts_limit = latest_posts_size %}
         {% endif %}
         {% for item in latest_posts limit: latest_posts_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {% if item.redirect == blank %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% elsif item.redirect contains '://' %}
-                <a class="news-title" href="{{ item.redirect }}" target="_blank">{{ item.title }}</a>
-                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"
-                    class="icon_svg-stroke"
-                    stroke="#999"
-                    stroke-width="1.5"
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-              {% else %}
-                <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
+          <div class="col mb-4">
+            {% if item.redirect == blank %}
+              <a href="{{ item.url | relative_url }}">
+            {% elsif item.redirect contains '://' %}
+              <a href="{{ item.redirect }}" target="_blank">
+            {% else %}
+              <a href="{{ item.redirect | relative_url }}">
+            {% endif %}
+              <div class="card hoverable">
+                <div class="card-body">
+                  <h3 class="card-title text-lowercase">{{ item.title }}</h3>
+                  <p class="card-text">{{ item.description }}</p>
+
+                  {% if item.external_source == blank %}
+                    {% assign read_time = item.content | number_of_words | divided_by: 180 | plus: 1 %}
+                  {% else %}
+                    {% assign read_time = item.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+                  {% endif %}
+                  {% assign year = item.date | date: "%Y" %}
+
+                  <p class="post-meta">
+                    {{ read_time }} min read &nbsp; &middot; &nbsp;
+                    <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                      <i class="fa-solid fa-calendar fa-sm"></i> {{ item.date | date: '%b %d, %Y' }}
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         {% endfor %}
-      </table>
+      </div>
     </div>
   {% else %}
     <p>No posts so far...</p>
   {% endif %}
 </div>
+
+<style>
+  .news .card.hoverable {
+    transition: all 0.3s ease;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    text-decoration: none !important;
+    max-width: 100%;
+  }
+  
+  .news .card.hoverable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .news .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #b509ac;
+    margin-bottom: 0.75rem;
+  }
+  
+  .news .card-text {
+    font-size: 0.95rem;
+    color: #6b7280;
+  }
+  
+  .news .post-meta {
+    font-size: 0.8rem;
+    color: #9ca3af;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .news .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .news .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+</style>

@@ -62,7 +62,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: assets/img/char-face.jpeg # The site-wide (default for all links) Open Graph preview image
+og_image: assets/img/comic-face.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -651,8 +651,8 @@ introduction:
   position: end
   title: 임종혁 (Jong-Hyuk Im)
   text: >
-    데이터와 프라이버시에 관심이 많습니다. 보안 알고리즘 최적 구현을 시작으로 다양한 프라이버시 강화 연구 후 고성능 분산 스토리지를 개발했고, 현재는 AI를 위한 데이터 처리 기술을 개발하고 있습니다.
-  image: assets/img/char-face.jpeg
+    데이터 저장 기술과 프라이버시 보호에 관심이 많습니다. 보안 알고리즘 최적 구현을 시작으로 다양한 프라이버시 강화 연구 후 고성능 분산 스토리지를 개발했습니다. 현재는 AI를 위한 데이터 처리 기술을 개발하고 있습니다.
+  image: assets/img/comic-face.jpg
   style:
     container_margin: "0 0 2rem 0"
     image_width: "7rem"

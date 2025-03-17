@@ -1,6 +1,6 @@
 # Jong-Hyuk Im`s Portfolio.
 
-![Profile Image](assets/img/char-face.jpeg)
+![Profile Image](assets/img/face/comic-face.jpg)
 
 ## Branches
 

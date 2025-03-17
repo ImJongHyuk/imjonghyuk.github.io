@@ -6,7 +6,7 @@ subtitle: 13년째, 항상 연구하며 개발하고 있습니다.
 
 profile:
   align: right
-  image: char-face.jpeg
+  image: comic-face.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     email: jonghyuk_im@naver.com
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-데이터와 프라이버시에 관심이 많은 연구자이자 엔지니어입니다.
+데이터 저장 기술과 프라이버시 보호에 관심이 많습니다.
 
 2020년, 인하대학교에서 '데이터 프라이버시 강화'와 '알고리즘 최적화'를 주제로 박사학위를 취득하고,
 바이오인증·블록체인 등 다양한 실용 분야에 적용 가능한 프라이버시 강화 프로토콜을 동형·함수 암호, TEE 등의 기술을 기반으로 설계하고 구현 및 검증했습니다.

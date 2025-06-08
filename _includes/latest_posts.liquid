@@ -11,13 +11,20 @@
         {% endif %}
         {% for item in latest_posts limit: latest_posts_limit %}
           <div class="col mb-4">
-            {% if item.redirect == blank %}
-              <a href="{{ item.url | relative_url }}">
-            {% elsif item.redirect contains '://' %}
-              <a href="{{ item.redirect }}" target="_blank">
+            {% assign post_url = item.url | relative_url %}
+            {% if item.redirect != blank %}
+              {% if item.redirect contains '://' %}
+                {% assign post_url = item.redirect %}
+                {% assign target_attr = 'target="_blank"' %}
+              {% else %}
+                {% assign post_url = item.redirect | relative_url %}
+                {% assign target_attr = '' %}
+              {% endif %}
             {% else %}
-              <a href="{{ item.redirect | relative_url }}">
+              {% assign target_attr = '' %}
             {% endif %}
+
+            <a href="{{ post_url }}" {{ target_attr }}>
               <div class="card hoverable">
                 <div class="card-body">
                   <h3 class="card-title">{{ item.title }}</h3>
@@ -28,7 +35,7 @@
                   {% else %}
                     {% assign read_time = item.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
                   {% endif %}
-                  {% assign year = item.date | date: "%Y" %}
+                  {% assign year = item.date | date: '%Y' %}
 
                   <p class="post-meta">
                     {{ read_time }} min read &nbsp; &middot; &nbsp;
@@ -57,41 +64,41 @@
     text-decoration: none !important;
     max-width: 100%;
   }
-  
+
   .news .card.hoverable:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
-  
+
   .news a {
     text-decoration: none;
     color: inherit;
   }
-  
+
   .news .card-title {
     font-size: 1.25rem;
     font-weight: 600;
     color: #b509ac;
     margin-bottom: 0.75rem;
   }
-  
+
   .news .card-text {
     font-size: 0.95rem;
     color: #6b7280;
   }
-  
+
   .news .post-meta {
     font-size: 0.8rem;
     color: #9ca3af;
     margin-top: 1rem;
     margin-bottom: 0;
   }
-  
+
   .news .row {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   .news .col {
     padding-left: 0;
     padding-right: 0;

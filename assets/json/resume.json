@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jong-Hyuk Im",
-    "label": "Software Engineer & CS Researcher",
+    "label": "Storage Systems Engineer with PhD in Privacy Technology",
     "image": "",
     "email": "jonghyuk_im@naver.com",
     "phone": "",
     "url": "https://imjonghyuk.github.io/",
-    "summary": "Expertise in: <br>(1) Security Algorithm implementation and optimization, <br>(2) Privacy-Enhancing Technologies (PETs) and applied cryptography, <br>(3) Distributed storage systems and back-end developments.",
+    "summary": "Expertise in: <br>(1) Distributed storage systems and back-end developments, <br>(2) Security Algorithm implementation and optimization, <br>(3) Privacy-Enhancing Technologies (PETs) and applied cryptography.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,7 +29,7 @@
       "url": "https://www.dnotitia.com/",
       "startDate": "2025-01-01",
       "endDate": "Present",
-      "summary": "Developed an optimized storage system to enhance the performance and scalability of vector databases for AI applications, while also working on storage system engineering.",
+      "summary": "AI 애플리케이션을 위한 벡터 데이터베이스의 성능과 확장성을 향상시키기 위한 최적화된 스토리지 시스템을 개발하며, 클라우드 스토리지 시스템 엔지니어링 업무를 수행하고 있습니다.",
       "highlights": ["Distributed Storage System", "Backend Development", "Storage System Engineering"]
     },
     {
@@ -38,7 +38,7 @@
       "url": "https://www.tmaxcloud.com/",
       "startDate": "2022-07-01",
       "endDate": "2024-11-26",
-      "summary": "Developed and improved cloud storage backend to support storage types such as Ceph, SAN, etc. to improve scalability and performance of cloud storage services in the IaaS product.",
+      "summary": "IaaS 제품에서 클라우드 스토리지 서비스의 확장성과 성능을 향상시키기 위해 Ceph, SAN 등 다양한 스토리지 타입을 지원하는 클라우드 스토리지 백엔드를 개발하고 개선했습니다.",
       "highlights": ["Distributed Storage System", "Backend Development"]
     },
     {
@@ -47,7 +47,7 @@
       "url": "https://www.tmaxtibero.com/",
       "startDate": "2020-07-01",
       "endDate": "2022-06-30",
-      "summary": "Developed and improved Tibero Active Storage (TAS), a dedicated storage system that provides high availability and performance for Tibero (DBMS), and also developed ZetaData, Tibero's high-performance appliance product.",
+      "summary": "Tibero(DBMS)를 위한 고가용성과 고성능을 제공하는 전용 스토리지 시스템인 Tibero Active Storage(TAS)를 개발하고 개선했으며, Tibero의 고성능 어플라이언스 제품인 ZetaData도 개발했습니다.",
       "highlights": ["Storage Backend System", "Tibero Active Storage", "ZetaData"]
     }
   ],
@@ -81,43 +81,6 @@
       "startDate": "2009-03-01",
       "endDate": "2013-02-28",
       "courses": ["Interned at the Information Security Lab (Supervisor: Professor. Mun-Kyu Lee)"]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Practical privacy-preserving face authentication for smartphones secure against malicious clients",
-      "publisher": "IEEE Transactions on Information Forensics and Security",
-      "releaseDate": "2020-01",
-      "url": "https://ieeexplore.ieee.org/document/8970309",
-      "summary": "A privacy-preserving face authentication system for smartphones is proposed, ensuring security against malicious clients and honest-but-curious servers through homomorphic encryption-based Euclidean distance computation and a blinding technique."
-    },
-    {
-      "name": "Privacy-preserving peer-to-peer energy trading in blockchain-enabled smart grids using functional encryption",
-      "publisher": "Energies",
-      "releaseDate": "2020-03",
-      "url": "https://www.mdpi.com/1996-1073/13/6/1321",
-      "summary": "A blockchain-based P2P energy trading system is proposed, using functional encryption to protect bid data while ensuring publicly verifiable peer matching through smart contracts."
-    },
-    {
-      "name": "Security analysis and improvement of fingerprint authentication for smartphones",
-      "publisher": "Mobile Information Systems",
-      "releaseDate": "2016-03",
-      "url": "https://www.hindawi.com/journals/misy/2016/8973828/",
-      "summary": "A security analysis of a smartphone fingerprint verification service reveals vulnerabilities that allow a malicious app to extract fingerprint images via interprocess communication and decrypt stored fingerprint features, with proposed countermeasures to mitigate these risks."
-    },
-    {
-      "name": "Privacy-preserving electricity billing system using functional encryption",
-      "publisher": "Energies",
-      "releaseDate": "2019-04",
-      "url": "https://www.mdpi.com/1996-1073/12/7/1237",
-      "summary": "A privacy-preserving electricity billing method using functional encryption is proposed, ensuring data privacy without compromising measurement quality, with feasibility demonstrated through a prototype system using real-world smart meter data."
-    },
-    {
-      "name": "Secure power demand forecasting using regression analysis on Intel SGX",
-      "publisher": "The Journal of Korean Institute of Next Generation Computing",
-      "releaseDate": "2017-08",
-      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002260280",
-      "summary": "A secure power demand forecasting method using regression analysis within Intel SGX is proposed, ensuring user privacy while achieving lower average error rates compared to existing privacy-preserving approaches."
     }
   ],
   "skills": [
@@ -195,16 +158,41 @@
       ]
     }
   ],
-  "references": [
+  "publications": [
     {
-      "name": "Professor Mun-Kyu Lee (Graduate Supervisor)",
-      "icon": "fa-solid fa-user-graduate",
-      "reference": "Email: mklee@inha.ac.kr"
+      "name": "Practical privacy-preserving face authentication for smartphones secure against malicious clients",
+      "publisher": "IEEE Transactions on Information Forensics and Security",
+      "releaseDate": "2020-01",
+      "url": "https://ieeexplore.ieee.org/document/8970309",
+      "summary": "공격자 모델로 Malicious 클라이언트와 Honest-but-Curious 서버에 대한 보안을 보장하는 스마트폰용 프라이버시 보호 얼굴 인증 시스템을 제안했습니다. 동형 암호 기반 유클리드 거리 계산과 블라인딩 기법을 통해 구현해, 최신 연구 대비 98.6배 성능을 향상시켰습니다."
     },
     {
-      "name": "PhD. Hee-Yong Kwon",
-      "icon": "fa-solid fa-user-friends",
-      "reference": "Email: heeyong.kr@gmail.com"
+      "name": "Privacy-preserving peer-to-peer energy trading in blockchain-enabled smart grids using functional encryption",
+      "publisher": "Energies",
+      "releaseDate": "2020-03",
+      "url": "https://www.mdpi.com/1996-1073/13/6/1321",
+      "summary": "함수 암호를 사용하여 입찰 데이터를 보호하면서 스마트 컨트랙트를 통해 공개적으로 검증 가능한 피어 매칭을 보장하는 블록체인 기반 P2P 전력 거래 시스템을 제안했습니다."
+    },
+    {
+      "name": "Security analysis and improvement of fingerprint authentication for smartphones",
+      "publisher": "Mobile Information Systems",
+      "releaseDate": "2016-03",
+      "url": "https://www.hindawi.com/journals/misy/2016/8973828/",
+      "summary": "스마트폰 지문 검증 서비스의 보안 분석을 통해 악의적인 앱이 프로세스 간 통신을 통해 지문 이미지를 추출하고 저장된 지문 특징을 복호화할 수 있는 취약점을 발견했으며, 이러한 위험을 완화하기 위한 안전한 바이오인식 설계 프레임워크를 제안했습니다."
+    },
+    {
+      "name": "Privacy-preserving electricity billing system using functional encryption",
+      "publisher": "Energies",
+      "releaseDate": "2019-04",
+      "url": "https://www.mdpi.com/1996-1073/12/7/1237",
+      "summary": "함수 암호를 사용한 프라이버시 보호 전력 요금 청구 방법을 제안했습니다. 측정 품질을 손상시키지 않으면서 데이터 프라이버시를 보장하며, 실제 스마트 미터 데이터를 사용한 프로토타입 시스템을 통해 실현 가능성을 입증했습니다."
+    },
+    {
+      "name": "Secure power demand forecasting using regression analysis on Intel SGX",
+      "publisher": "The Journal of Korean Institute of Next Generation Computing",
+      "releaseDate": "2017-08",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002260280",
+      "summary": "Intel SGX 내에서 회귀 분석을 사용한 안전한 전력 수요 예측 방법을 제안했습니다. 기존 프라이버시 보호 접근법 대비 더 낮은 평균 오차율을 달성하면서 사용자 프라이버시를 보장합니다."
     }
   ],
   "projects": [
@@ -440,6 +428,96 @@
       ],
       "startDate": "2013-01-01",
       "endDate": "2013-12-01"
+    }
+  ],
+  "patents": [
+    {
+      "name": "Secure Biometric Authentication Method Using Functional Encryption",
+      "date": "2019-07",
+      "office": "Korean Intellectual Property Office",
+      "number": "10-2008101",
+      "type": "Patent",
+      "summary": "함수 암호를 이용한 안전한 바이오인증 방법에 관한 특허"
+    },
+    {
+      "name": "Secure Electricity Billing Method Using Functional Encryption",
+      "date": "2018-06",
+      "office": "Korean Intellectual Property Office",
+      "number": "10-1866693",
+      "type": "Patent",
+      "summary": "함수 암호를 이용한 안전한 전력 요금 청구 방법에 관한 특허"
+    },
+    {
+      "name": "Method and System for Feature Vector Based Remote Biometric Verification Using Homomorphic Encryption",
+      "date": "2017-07",
+      "office": "Korean Intellectual Property Office",
+      "number": "10-1755995",
+      "type": "Patent",
+      "summary": "동형 암호를 이용한 특징벡터 기반 원격 바이오인증 방법 및 시스템에 관한 특허"
+    },
+    {
+      "name": "Password-based user authentication method using one-time private key-based digital signature and homomorphic encryption",
+      "date": "2017-05",
+      "office": "Korean Intellectual Property Office",
+      "number": "10-1739203",
+      "type": "Patent",
+      "summary": "일회용 개인키 기반 디지털 서명과 동형 암호를 이용한 패스워드 기반 사용자 인증 방법에 관한 특허"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Special Award (한국암호포럼의장 특별상)",
+      "date": "2018-11",
+      "awarder": "2018 한국암호포럼 국가암호공모전",
+      "summary": "암호 기술 관련 연구 성과를 인정받아 수상"
+    },
+    {
+      "title": "Participation Award (장려상)",
+      "date": "2017-06",
+      "awarder": "한국 차세대컴퓨팅학회 하계학술대회 2017",
+      "summary": "차세대 컴퓨팅 기술 연구 발표로 수상"
+    },
+    {
+      "title": "IEEE Best Poster Award (IEEE 최우수포스터발표상)",
+      "date": "2016-08",
+      "awarder": "IEEE Datacom 2016",
+      "summary": "IEEE 국제 학술대회에서 최우수 포스터 발표상 수상"
+    },
+    {
+      "title": "Best Paper Award (최우수논문상)",
+      "date": "2015-10",
+      "awarder": "2015 정보처리학회 추계학술발표대회",
+      "summary": "정보처리 관련 연구 논문으로 최우수 논문상 수상"
+    },
+    {
+      "title": "Bronze Award (동상)",
+      "date": "2014-11",
+      "awarder": "인하대학교 기업가센터 주관 인하스타트업",
+      "summary": "창업 아이디어 경진대회에서 동상 수상"
+    },
+    {
+      "title": "Best Student Paper Award (최우수학생논문상)",
+      "date": "2014-10",
+      "awarder": "JKCCS '14",
+      "summary": "학생 부문 최우수 논문상 수상"
+    },
+    {
+      "title": "IITPA President's Award (인천정보산업진흥원장상)",
+      "date": "2014-07",
+      "awarder": "미추홀창업나래한마당",
+      "summary": "창업 관련 성과로 인천정보산업진흥원장상 수상"
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor Mun-Kyu Lee (Graduate Supervisor)",
+      "icon": "fa-solid fa-user-graduate",
+      "reference": "Email: mklee@inha.ac.kr"
+    },
+    {
+      "name": "PhD. Hee-Yong Kwon",
+      "icon": "fa-solid fa-user-friends",
+      "reference": "Email: heeyong.kr@gmail.com"
     }
   ]
 }

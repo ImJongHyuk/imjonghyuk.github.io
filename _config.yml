@@ -636,14 +636,12 @@ jsonresume:
   - basics
   - work
   - education
+  - skills
+  - interests
   - publications
   - projects
-  - volunteer
+  - patents
   - awards
-  - certificates
-  - skills
-  - languages
-  - interests
   - references
 
 # Distll Post Indroduction Section

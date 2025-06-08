@@ -29,8 +29,13 @@
       "url": "https://www.dnotitia.com/",
       "startDate": "2025-01-01",
       "endDate": "Present",
-      "summary": "AI 애플리케이션을 위한 벡터 데이터베이스의 성능과 확장성을 향상시키기 위한 최적화된 스토리지 시스템을 개발하며, 클라우드 스토리지 시스템 엔지니어링 업무를 수행하고 있습니다.",
-      "highlights": ["Distributed Storage System", "Backend Development", "Storage System Engineering"]
+      "summary": "클라우드 기반 RAG 서비스의 스토리지 시스템과 데이터 파이프라인을 설계·개발하고 있습니다. AI 워크로드에 최적화된 고성능 분산 스토리지 연구와 벡터 데이터베이스를 위한 스토리지 아키텍처 개발을 담당하며, 시스템 성능 분석 및 운영 자동화 업무를 수행하고 있습니다.",
+      "highlights": [
+        "Distributed Storage System Development",
+        "AI/ML Pipeline Engineering",
+        "Kubernetes DevOps Automation",
+        "Storage Performance Analysis & Optimization"
+      ]
     },
     {
       "name": "Storage Team, Tmax Cloud",

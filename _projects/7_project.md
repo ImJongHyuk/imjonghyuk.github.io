@@ -1,3 +1,5 @@
+```
+TODO: 코드블럭을 풀어야 퍼블리시 됨.
 ---
 layout: page
 title: project 7
@@ -7,6 +9,7 @@ importance: 1
 category: work
 related_publications: true
 ---
+```
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
